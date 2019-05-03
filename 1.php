@@ -8,6 +8,12 @@
           include('top.php');
 
       ?>
+      <?php
+
+$msg = "Hi Debug Console";
+echo $msg;
+
+?>
       <link rel="stylesheet" type="text/css" href="home.css">
    <meta name="viewport" content="width=full-length">
 
