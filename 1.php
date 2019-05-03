@@ -5,7 +5,7 @@
 
     <?php
 
-          include('top.php');
+        include('top.php');
 
       ?>
       <?php
@@ -48,7 +48,7 @@ echo $msg;
 </div>
 
 <script>
-alert("welcome to GreenVideo");
+alert("hello and welcome to GreenVideo");
 var slideIndex = 0;
 showSlides();
 
