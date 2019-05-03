@@ -93,7 +93,7 @@ if ($count >= 0)
 <div class="footer">
 	         
           
-  				<p> <h2><u>Contact:</u></h2>  <h4>MOBILE NO:612598756</h4> <h4>Email:green.video33@gmail.com</h4> 
+  				<p> <h2><u>Contact us:</u></h2>  <h4>MOBILE NO:612598756</h4> <h4>Email:green.video33@gmail.com</h4> 
   
   				</p>
 </div>
