@@ -41,7 +41,7 @@
 </div>
 
 <script>
-alert("welcome to GreenVideo");
+alert("hello and welcome to greenVideo");
 var slideIndex = 0;
 showSlides();
 
