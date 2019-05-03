@@ -33,9 +33,9 @@
     <h2>STEP 1</h2>
     <p>SEARCH YOUR VIDEO</p>
   </div>
-  <div class="column" style="background-color:#ffffff;">
+  <div class="column" style="background-color:#fffff;">
     <h2>STEP 2</h2>
-    <p>SELECT APPRPRIATE DATES</p>
+    <p>SELECT APPRECIATE DATES</p>
   </div>
 </div>
 
