@@ -35,7 +35,7 @@ include('connection.php');
 
     else
     {
-      $msg = "";
+      $msg ="";
     }
   
   if(isset($msg) & !empty($msg)){

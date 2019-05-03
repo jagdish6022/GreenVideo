@@ -22,7 +22,8 @@ echo $msg;
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
   <img src="11.jpg" style="width:100%; height: 50%" alt="img1.jpg">
-  <div class="text">SPORTs</div>
+  
+  <div class="text">SPORT</div>
 </div>
 
 <div class="mySlides fade">
