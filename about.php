@@ -29,22 +29,22 @@
 <br>
 
 <div class="row">
-  <div class="column" style="background-color:#aaa;">
+  <div class="column" style="background-color:#ffffff;">
     <h2>STEP 1</h2>
-    <p>SEARCH YOUR VIDEO</p>
+    <p>SEARCH YOUR VIDEOS HERE....!></p>
   </div>
-  <div class="column" style="background-color:#bbb;">
+  <div class="column" style="background-color:#fffff;">
     <h2>STEP 2</h2>
-    <p>SELECT APPRPRIATE DATES</p>
+    <p>SELECT APPRECIATE DATES</p>
   </div>
 </div>
 
 <div class="row">
-  <div class="column" style="background-color:#ccc;">
+  <div class="column" style="background-color:#ffffff;">
     <h2>STEP 3</h2>
     <p>BOOK YOUR VIDEO</p>
   </div>
-  <div class="column" style="background-color:#ddd;">
+  <div class="column" style="background-color:#ffffff;">
     <h2>STEP 4</h2>
     <p>PAY THE RENT AND ENJOY</p>
   </div>
