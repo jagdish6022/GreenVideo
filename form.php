@@ -35,7 +35,7 @@ include('connection.php');
 
     else
     {
-      $msg = "Your Account is not Registered";
+      $msg = "Your Account Is Not Registered";
     }
   
   if(isset($msg) & !empty($msg)){
