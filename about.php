@@ -31,7 +31,7 @@
 <div class="row">
   <div class="column" style="background-color:#aaa;">
     <h2>STEP 1</h2>
-    <p>SEARCH YOUR VIDEOS HERE......!></p>
+    <p>SEARCH YOUR VIDEOS HERE....!></p>
   </div>
   <div class="column" style="background-color:#bbb;">
     <h2>STEP 2</h2>
