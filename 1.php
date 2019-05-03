@@ -8,6 +8,12 @@
           include('top.php');
 
       ?>
+      <?php
+
+$msg = "Hi Debug Console";
+echo $msg;
+
+?>
       <link rel="stylesheet" type="text/css" href="home.css">
    <meta name="viewport" content="width=full-length">
 
@@ -16,7 +22,8 @@
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
   <img src="11.jpg" style="width:100%; height: 50%" alt="img1.jpg">
-  <div class="text">SPORTs</div>
+  
+  <div class="text">SPORT</div>
 </div>
 
 <div class="mySlides fade">
@@ -41,7 +48,7 @@
 </div>
 
 <script>
-alert("hello and welcome to greenVideo");
+alert("welcome to GreenVideo");
 var slideIndex = 0;
 showSlides();
 

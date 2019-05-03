@@ -15,6 +15,10 @@ include('connection.php');
         $count = mysqli_num_rows($result);
 
         $fetch = mysqli_query($conn,"SELECT vid_name FROM combo");
+        if($fetch)
+        {
+          echo "joshi";
+        }
         $two = mysqli_num_rows($fetch);
         
         if ($count == 1)
@@ -35,7 +39,7 @@ include('connection.php');
 
     else
     {
-      $msg = "";
+      $msg ="";
     }
   
   if(isset($msg) & !empty($msg)){
