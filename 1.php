@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>GreenVideo</title>
- 
+
     <?php
 
           include('top.php');
@@ -20,9 +20,9 @@ echo $msg;
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>     
+  <div class="numbertext">1 / 3</div>
   <img src="11.jpg" style="width:100%; height: 50%" alt="img1.jpg">
-  <div class="text">SPORTS</div>
+  <div class="text">SPORTs</div>
 </div>
 
 <div class="mySlides fade">
@@ -41,12 +41,13 @@ echo $msg;
 <br>
 
 <div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
 </div>
 
 <script>
+alert("welcome to GreenVideo");
 var slideIndex = 0;
 showSlides();
 
@@ -56,14 +57,14 @@ function showSlides() {
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
     for (i = 0; i < slides.length; i++) {
-       slides[i].style.display = "none";  
+       slides[i].style.display = "none";
     }
     slideIndex++;
-    if (slideIndex > slides.length) {slideIndex = 1}    
+    if (slideIndex > slides.length) {slideIndex = 1}
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex-1].style.display = "block";  
+    slides[slideIndex-1].style.display = "block";
     dots[slideIndex-1].className += " active";
     setTimeout(showSlides, 2000000); // Change image every 2 seconds
 }
@@ -73,10 +74,10 @@ function showSlides() {
 <h2>VIDEOS</h2>
 <p>AVAILABLE ON RENT</p>
 
-<?php 
+<?php
 include ('connection.php');
 $query = mysqli_query($conn,"SELECT * FROM search");
-$count = mysqli_num_rows($query); 
+$count = mysqli_num_rows($query);
 
 if ($count >= 0)
    {
@@ -95,12 +96,12 @@ if ($count >= 0)
 ?>
 
 
-</body> 
+</body>
 <div class="footer">
-	         
-          
-  				<p> <h2><u>Contact us:</u></h2>  <h4>MOBILE NO:612598756</h4> <h4>Email:green.video33@gmail.com</h4> 
-  
+
+
+  				<p> <h2><u>Contact us:</u></h2>  <h4>MOBILE NO:612598756</h4> <h4>Email:green.video33@gmail.com</h4>
+
   				</p>
 </div>
-</html> 
+</html>
